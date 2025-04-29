@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(new File("benchmarks/ladder_9.txt")); // Input file
+        Scanner sc = new Scanner(new File("benchmarks/bridge_1.txt")); // Input file
         int n = sc.nextInt(); // Number of nodes
         Graph graph = new Graph(n);
 
